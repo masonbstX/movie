@@ -301,7 +301,7 @@ async function loadSeason(season) {
         seasonPopup.style.display = "none";
         results.innerHTML = "";
         player.innerHTML = `
-          <iframe src="https://vidfast.pro/tv/${currentShowId}/${season}/${ep.Episode}?autoPlay=true" allowfullscreen allow="encrypted-media"></iframe>
+          <iframe src="https://vidsrc.cc/v2/embed/tv/${currentShowId}/${season}/${ep.Episode}?autoPlay=true" allowfullscreen allow="encrypted-media"></iframe>
         `;
         updatePlaceholder();
       };
